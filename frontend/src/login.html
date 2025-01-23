@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+  <div class="container mx-auto p-4">
+    <div class="flex flex-wrap lg:flex-nowrap justify-center items-start gap-8">
+
+      <!-- Section Deskripsi Puskesmas -->
+      <div class="bg-white shadow-lg rounded-lg p-6 lg:w-1/2 w-full">
+        <h2 class="bg-yellow-600 text-white px-6 py-3 rounded-md text-2xl font-bold mb-4 text-center">Selamat Datang di
+          Puskesmas Kita</h2>
+        <p class="text-gray-800 leading-relaxed mb-4">
+          Puskesmas Kita adalah pusat layanan kesehatan masyarakat yang mengutamakan pelayanan berkualitas, ramah, dan
+          terjangkau bagi seluruh lapisan masyarakat. Kami hadir untuk memenuhi kebutuhan kesehatan Anda dengan
+          fasilitas modern, tenaga medis yang berpengalaman, dan berbagai program kesehatan unggulan.
+        </p>
+        <h2 class="bg-yellow-600 text-white px-6 py-3 rounded-md text-2xl font-bold mb-4 text-center">Mengapa Memilih
+          Puskesmas Kita?</h2>
+        <ul class="list-disc ml-5 text-gray-800 leading-relaxed">
+          <li>Pelayanan Prima: Kami memberikan perhatian penuh kepada setiap pasien dengan pelayanan yang cepat,
+            profesional, dan ramah.</li>
+          <li>Fasilitas Lengkap: Puskesmas kami dilengkapi dengan fasilitas kesehatan modern seperti ruang konsultasi,
+            ruang perawatan, laboratorium, layanan gigi, dan ruang imunisasi.</li>
+          <li>Layanan Preventif: Selain pengobatan, puskesmas juga berfokus pada pencegahan penyakit melalui vaksinasi,
+            pemeriksaan kesehatan rutin, serta program kesehatan masyarakat lainnya.</li>
+        </ul>
+      </div>
+
+      <!-- Section Form Login -->
+      <div class="bg-white shadow-lg rounded-lg p-6 lg:w-1/3 w-full">
+        <a href="index.html">
+          <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Selamat Datang</h2>
+        </a>
+        <form>
+          <!-- Username Field -->
+          <div class="mb-6">
+            <label for="username" class="block text-gray-700 font-medium mb-2">Username</label>
+            <input type="text" id="username"
+              class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              placeholder="Enter your Username" required />
+          </div>
+          <!-- Password Field -->
+          <div class="mb-6">
+            <label for="password" class="block text-gray-700 font-medium mb-2">Password</label>
+            <input type="password" id="password"
+              class="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"
+              placeholder="Enter your Password" required />
+          </div>
+          <!-- Remember Me and Forgot Password -->
+          <div class="flex items-center justify-between mb-6">
+            <label class="flex items-center text-gray-700">
+              <input type="checkbox" class="form-checkbox text-blue-500 border-gray-300 focus:ring-blue-500" />
+              <span class="ml-2 text-sm">Remember me</span>
+            </label>
+            <a href="#" class="text-sm text-blue-500 hover:underline">Forgot password?</a>
+          </div>
+          <!-- Submit Button -->
+          <div class="flex">
+            <a href="./dashboard/view/index.html"
+              class="w-full text-center bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition">
+              Login
+            </a>
+          </div>
+        </form>
+        <!-- Divider -->
+        <div class="flex items-center my-6">
+          <div class="w-full h-px bg-gray-300"></div>
+          <span class="px-3 text-sm text-gray-500">or</span>
+          <div class="w-full h-px bg-gray-300"></div>
+        </div>
+        <!-- Social Login -->
+        <div class="flex justify-center gap-4">
+          <button class="flex items-center px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 transition">
+            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="Google"
+              class="w-5 h-5 mr-2 bg-white rounded-full" />
+            Login with Google
+          </button>
+          <button class="flex items-center px-4 py-2 bg-blue-800 text-white rounded-md hover:bg-blue-900 transition">
+            <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook"
+              class="w-5 h-5 mr-2 bg-white rounded" />
+            Login with Facebook
+          </button>
+        </div>
+        <!-- Extra Links -->
+        <div class="mt-6 text-center">
+          <p class="text-sm text-gray-600">
+            Don't have an account? <a href="register.html" class="text-blue-500 hover:underline">Sign up</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

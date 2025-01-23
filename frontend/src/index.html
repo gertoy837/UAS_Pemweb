@@ -1,13 +1,119 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./css/output.css" rel="stylesheet">
+  <title>Web Page Puskesmas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+
+<body class="bg-gradient-to-r from-blue-100 to-blue-50 font-sans">
+  <div class="max-w-4xl mx-auto bg-white shadow-2xl border border-gray-200 rounded-xl p-6 my-10">
+    <!-- Header -->
+    <div class="bg-gradient-to-r from-blue-500 to-blue-700 p-4 rounded-t-xl">
+      <div class="flex justify-between items-center">
+        <div class="flex items-center space-x-2">
+          <img src="./dashboard/assets/img/profil_company1.png" alt="logo" style="width: 12%; height: 12%;">
+        </div>
+        <nav class="flex items-center space-x-4 mr-5">
+          <a href="index.html" class="text-white hover:text-blue-200 transition">Beranda</a>
+          <a href="about.html" class="text-white hover:text-blue-200 transition">Tentang</a>
+          <a href="kontak.html" class="text-white hover:text-blue-200 transition">Kontak</a>
+        </nav>
+        <div>
+          <a href="login.html"
+            class="px-6 py-2 mr-5 bg-white rounded-full text-blue-600 shadow-md font-semibold hover:bg-blue-100 transition">
+            Login
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="p-6">
+      <!-- Welcome Section -->
+      <h1 class="text-4xl font-extrabold text-blue-700 mb-4">Selamat Datang di Puskesmas Kita</h1>
+      <p class="text-gray-700 leading-relaxed">
+        "Selamat datang di Puskesmas kita, tempat di mana kesehatan Anda adalah prioritas utama kami."
+      </p>
+
+      <!-- Medical Team Section -->
+      <div class="mt-8">
+        <h2 class="text-xl font-semibold text-blue-700 mb-4">Tim Medis Siap Melayani</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="flex flex-col items-center space-y-3">
+            <div class="w-24 h-24 border-4 border-blue-500 rounded-full overflow-hidden shadow-lg">
+              <img src="img/ekaa.jpeg" alt="Foto Dokter" class="w-full h-full object-cover">
+            </div>
+            <p class="text-blue-700 font-semibold">Dokter 1</p>
+            <p class="text-gray-600">Eka Vitaloka</p>
+          </div>
+          <div class="flex flex-col items-center space-y-3">
+            <div class="w-24 h-24 border-4 border-blue-500 rounded-full overflow-hidden shadow-lg">
+              <img src="img/tasya.jpeg" alt="Foto Dokter" class="w-full h-full object-cover">
+            </div>
+            <p class="text-blue-700 font-semibold">Dokter 2</p>
+            <p class="text-gray-600">Ananda Tasya</p>
+          </div>
+          <div class="flex flex-col items-center space-y-3">
+            <div class="w-24 h-24 border-4 border-blue-500 rounded-full overflow-hidden shadow-lg">
+              <img src="img/dikaa.jpeg" alt="Foto Dokter" class="w-full h-full object-cover">
+            </div>
+            <p class="text-blue-700 font-semibold">Dokter 3</p>
+            <p class="text-gray-600">Mochammad Mahardika</p>
+          </div>
+          <div class="flex flex-col items-center space-y-3">
+            <div class="w-24 h-24 border-4 border-blue-500 rounded-full overflow-hidden shadow-lg">
+              <img src="img/yahya.jpeg" alt="Foto Dokter" class="w-full h-full object-cover">
+            </div>
+            <p class="text-blue-700 font-semibold">Dokter 4</p>
+            <p class="text-gray-600">Harun Yahya</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services Section -->
+      <div class="mt-8">
+        <h2 class="text-xl font-semibold text-blue-700 mb-4">Layanan Kami</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-gradient-to-r from-blue-50 to-white p-4 rounded-lg shadow-md">
+            <h3 class="font-bold text-blue-700 mb-2">Poli Umum</h3>
+            <p class="text-gray-600 text-sm">
+              Poli Umum di Puskesmas kami menyediakan layanan medis untuk berbagai keluhan kesehatan umum.
+              Tim medis kami siap membantu dengan pemeriksaan rutin, diagnosis penyakit, serta memberikan pengobatan
+              yang sesuai untuk menjaga kesehatan Anda dan keluarga.
+              Kami berkomitmen memberikan pelayanan yang cepat dan berkualitas.
+            </p>
+          </div>
+          <div class="bg-gradient-to-r from-blue-50 to-white p-4 rounded-lg shadow-md">
+            <h3 class="font-bold text-blue-700 mb-2">Poli Gigi</h3>
+            <p class="text-gray-600 text-sm">
+              Poli Gigi kami menawarkan layanan perawatan gigi dan mulut, mulai dari pemeriksaan gigi rutin, pembersihan
+              gigi, hingga penanganan masalah gigi dan gusi.
+              Dengan tenaga medis yang terlatih, kami memastikan Anda mendapatkan perawatan terbaik untuk menjaga
+              kesehatan gigi Anda.
+            </p>
+          </div>
+          <div class="bg-gradient-to-r from-blue-50 to-white p-4 rounded-lg shadow-md">
+            <h3 class="font-bold text-blue-700 mb-2">Poli Ibu & Anak</h3>
+            <p class="text-gray-600 text-sm">
+              Poli Ibu & Anak kami memberikan perhatian khusus untuk kesehatan ibu hamil, melahirkan, serta perkembangan
+              anak.
+              Kami menyediakan layanan pemeriksaan kehamilan, imunisasi anak, dan konsultasi kesehatan ibu dan anak
+              dengan tenaga medis yang berpengalaman dan penuh kasih sayang.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="bg-gradient-to-r from-blue-500 to-blue-700 p-6 mt-8 text-center rounded-b-xl text-white">
+      <p class="font-semibold text-lg">Puskesmas Kita © 2025</p>
+      <p class="text-sm">We care for your health!</p>
+    </div>
+  </div>
 </body>
+
 </html>

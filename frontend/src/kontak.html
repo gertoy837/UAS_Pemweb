@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Puskesmas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="bg-gradient-to-r from-blue-100 to-blue-50 font-sans">
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl border border-gray-200 rounded-xl p-6 my-10">
+        <!-- Header -->
+        <div class="bg-gradient-to-r from-blue-500 to-blue-700 p-4 rounded-t-xl">
+            <div class="flex justify-between items-center">
+              <div class="flex items-center space-x-2">
+                <img src="./dashboard/assets/img/profil_company1.png" alt="logo" style="width: 12%; height: 12%;">
+              </div>
+              <nav class="flex items-center space-x-4 mr-5">
+                <a href="index.html" class="text-white hover:text-blue-200 transition">Beranda</a>
+                <a href="about.html" class="text-white hover:text-blue-200 transition">Tentang</a>
+                <a href="kontak.html" class="text-white hover:text-blue-200 transition">Kontak</a>
+              </nav>
+              <div>
+                <a href="login.html"
+                  class="px-6 py-2 mr-5 bg-white rounded-full text-blue-600 shadow-md font-semibold hover:bg-blue-100 transition">
+                  Login
+                </a>
+              </div>
+            </div>
+          </div>
+
+        <!-- Main Content -->
+        <div class="p-6">
+            <div class="container mx-auto py-16 px-4 md:flex md:justify-between">
+                <!-- Sosial Media di Kiri -->
+                <div class="md:w-1/4 flex flex-col items-start space-y-6">
+                    <h2 class="text-3xl font-semibold mb-4 text-blue-600">Follow Us 😊</h2>
+                    <p class="mb-8 text-blue-400">Kami tersedia untuk memberikan dukungan melalui media sosial. Hubungi
+                        kami untuk mendapatkan informasi lebih lanjut!</p>
+                    <!-- Sosial Media Sejajar Vertikal di Kiri -->
+                    <div class="flex flex-col items-start space-y-6">
+                        <!-- LinkedIn -->
+                        <div class="flex items-center space-x-2">
+                            <i class="fab fa-linkedin text-3xl text-blue-600"></i>
+                            <a href="#" target="_blank"
+                                class="text-blue-500 hover:text-blue-700 font-semibold">Puskesmas Kita</a>
+                        </div>
+                        <!-- Email -->
+                        <div class="flex items-center space-x-2">
+                            <i class="fas fa-envelope text-3xl text-blue-600"></i>
+                            <a href="#"
+                                class="text-blue-500 hover:text-blue-700 font-semibold">puskesmasKita@gmail.com</a>
+                        </div>
+                        <!-- WhatsApp -->
+                        <div class="flex items-center space-x-2">
+                            <i class="fab fa-whatsapp text-3xl text-blue-600"></i>
+                            <a href="#" target="_blank"
+                                class="text-blue-500 hover:text-blue-700 font-semibold">02245323412</a>
+                        </div>
+                        <!-- Instagram -->
+                        <div class="flex items-center space-x-2">
+                            <i class="fab fa-instagram text-3xl text-blue-600"></i>
+                            <a href="#" target="_blank"
+                                class="text-blue-500 hover:text-blue-700 font-semibold">@puskesmasKita</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulir Kontak di Sebelah Kanan -->
+                <div class="md:w-1/2 bg-white p-8 shadow-lg rounded-lg mt-8 md:mt-0">
+                    <h2 class="text-3xl font-semibold mb-4 text-center text-blue-600">Contact Us</h2>
+                    <form class="space-y-4">
+                        <input type="text" placeholder="YOUR NAME"
+                            class="w-full p-4 border border-gray-300 rounded-lg text-black">
+                        <input type="email" placeholder="EMAIL ADDRESS"
+                            class="w-full p-4 border border-gray-300 rounded-lg text-black">
+                        <input type="tel" placeholder="TELEPHONE NUMBER"
+                            class="w-full p-4 border border-gray-300 rounded-lg text-black">
+                        <textarea placeholder="YOUR MESSAGE"
+                            class="w-full p-4 border border-gray-300 rounded-lg h-32 text-black"></textarea>
+                        <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-lg hover:bg-blue-700">
+                            SEND MESSAGE
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="bg-gradient-to-r from-blue-500 to-blue-700 p-6 mt-8 text-center rounded-b-xl text-white">
+            <p class="font-semibold text-lg">Puskesmas Kita © 2025</p>
+            <p class="text-sm">We care for your health!</p>
+        </div>
+    </div>
+</body>
+
+</html>
